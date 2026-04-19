@@ -25,8 +25,8 @@ YASL is a chain of skills. Each skill's output is structurally the next skill's 
 
 ```
 /start → [/ideate] → /spec → [/breakdown] → /plan → /build → /validate → /review
-   ↑                                                   ↓
-   └───────────── backward flow ──────────────────────┘
+                       ↑                               │
+                       └──── backward flow ────────────┘
 ```
 
 | Skill | Input | Output |

@@ -3,7 +3,9 @@
 The YASL pipeline, as a set of Claude Code skills.
 
 ```
-/ideate → /spec → /plan → /build → /validate → /review
+/start → [/ideate] → /spec → [/breakdown] → /plan → /build → /validate → /review
+                       ↑                               │
+                       └──── backward flow ────────────┘
 ```
 
 ## Commands
