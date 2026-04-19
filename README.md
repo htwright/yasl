@@ -4,6 +4,8 @@
 
 A spec-driven development workflow for [Claude Code](https://claude.com/claude-code). Chained skills that turn a vague idea into production code, with context that survives across sessions.
 
+For the philosophy behind this pipeline, see [VISION.md](VISION.md).
+
 > **Working title.** Name subject to change before v1.0.
 
 ---
