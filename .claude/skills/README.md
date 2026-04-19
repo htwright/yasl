@@ -10,6 +10,7 @@ The YASL pipeline, as a set of Claude Code skills.
 
 | Command | Purpose | Output |
 |---|---|---|
+| `/start [task]` | Recommend where to enter the pipeline | Recommendation (no artifact) |
 | `/ideate [topic]` | Explore and bound a problem space | `docs/ideation/<topic>.md` |
 | `/prd [amend]` | Create or update product requirements | `docs/PRD.md` |
 | `/spec <feature>` | Define requirements + architecture | `docs/specs/<feature>.md` |

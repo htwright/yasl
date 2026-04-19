@@ -1,6 +1,6 @@
 ---
 name: spec
-description: Use when the user has a defined problem or feature but the implementation approach is unclear, has competing options, or crosses architectural boundaries. Reads docs/ideation/<feature>.md if present; produces docs/specs/<feature>.md. Skip for trivial changes that fit in a single file or follow an obvious existing pattern.
+description: Use when the user has a defined problem or feature but the implementation approach is unclear, has competing options, or crosses architectural boundaries. Reads docs/ideation/<feature>.md if present; produces docs/specs/<feature>.md. Skip for trivial changes that fit in a single file or follow an obvious existing pattern. If you're not sure whether your task belongs in solution space, run /start first.
 argument-hint: <feature-name>
 allowed-tools: Read, Glob, Grep, Write, Edit, AskUserQuestion
 ---

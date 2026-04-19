@@ -24,11 +24,14 @@ Most AI coding is vibes. You describe a thing, Claude writes it, you review, rep
 YASL is a chain of skills. Each skill's output is structurally the next skill's input. Artifacts on disk are the memory.
 
 ```
-/ideate → /spec → /plan → /build → /validate → /review
+/start → [/ideate] → /spec → [/breakdown] → /plan → /build → /validate → /review
+   ↑                                                   ↓
+   └───────────── backward flow ──────────────────────┘
 ```
 
 | Skill | Input | Output |
 |---|---|---|
+| `/start` | A task in mind | A recommendation: which skill to run, or whether to skip the pipeline |
 | `/ideate` | A fuzzy problem | A bounded problem map |
 | `/spec` | A problem map (or a clear ask) | A feature spec with architecture + contracts |
 | `/plan` | A spec | A step-by-step, file-by-file milestone plan |

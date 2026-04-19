@@ -1,6 +1,6 @@
 ---
 name: ideate
-description: Use when the user has a fuzzy problem ("something feels off about X", "we should rethink Y", "I'm not sure what we're actually dealing with") and no concrete feature in mind. Produces docs/ideation/<topic>.md with a bounded problem statement. Skip for clear feature requests — go straight to /spec.
+description: Use when the user has a fuzzy problem ("something feels off about X", "we should rethink Y", "I'm not sure what we're actually dealing with") and no concrete feature in mind. Produces docs/ideation/<topic>.md with a bounded problem statement. Skip for clear feature requests — go straight to /spec. If you're not sure whether your task belongs in problem space, run /start first.
 argument-hint: [topic]
 allowed-tools: Read, Glob, Grep, Write, Edit, AskUserQuestion
 ---
